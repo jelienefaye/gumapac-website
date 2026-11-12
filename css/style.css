@@ -64,3 +64,35 @@ nav a:hover {
     background-color: #FFF8EC;
     color: #5B3A29;
 }
+
+.about {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+ 
+.about img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.highlights {
+    padding: 50px 20px;
+    text-align: center;
+}
+ 
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+ 
+.card {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
